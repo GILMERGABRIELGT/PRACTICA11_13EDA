@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 11 - Matriz Editable con Tablas A, B, C, D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Matriz 5x10 - Editar y Mostrar Tablas A, B, C, D</h1>
+        <button id="generateMatrixBtn" class="btn primary">Generar Matriz</button>
+        <div id="matrixContainer"></div>
+        <div class="button-group">
+            <button id="addRowBtn" class="btn" style="display:none;">Añadir Fila</button>
+            <button id="addColumnBtn" class="btn" style="display:none;">Añadir Columna</button>
+            <button id="removeRowBtn" class="btn danger" style="display:none;">Eliminar Fila</button>
+            <button id="removeColumnBtn" class="btn danger" style="display:none;">Eliminar Columna</button>
+            <button id="calculateBtn" class="btn success" style="display:none;">Recalcular Sumas y Promedios</button>
+        </div>
+        <div id="resultsContainer"></div>
+        <div id="arraysContainer"></div> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
